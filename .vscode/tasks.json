@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build Test.cpp",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-g", "-o", "test", "Test.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
